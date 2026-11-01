@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import { CartNavLink } from "@/components/layout/cart-nav-link";
@@ -80,26 +81,36 @@ export function SiteHeader({ categories }: { categories: CategoryNode[] }) {
       <div className="mx-auto flex max-w-7xl items-center gap-5 px-4 py-4">
         <Link
           href="/"
-          className="shrink-0"
+          className="order-1 shrink-0"
           aria-label="ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ"
         >
-          <img
-            src="/logo.svg"
-            alt="ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ"
-            className="h-16 w-auto object-contain"
+          <Image
+            src="/brand-mark.png"
+            alt=""
+            aria-hidden="true"
+            width={1024}
+            height={1024}
+            className="h-12 w-12 object-contain md:hidden"
+          />
+          <Image
+            src="/brand-wordmark.png"
+            alt="ANAMUR ACİL MEDİKAL ve İŞİTME MERKEZİ"
+            width={1429}
+            height={594}
+            className="hidden h-16 w-auto max-w-[260px] object-contain md:block"
           />
         </Link>
-        <div className="hidden flex-1 md:block">
+        <div className="order-2 hidden flex-1 md:block">
           <SearchForm />
         </div>
-        <nav className="ml-auto hidden items-center gap-1 md:flex">
+        <nav className="order-3 ml-auto hidden items-center gap-1 md:flex">
           <NavLink href="/account" exact>
             Hesabım
           </NavLink>
           <NavLink href="/account/favorites">Favoriler</NavLink>
           <CartNavLink />
         </nav>
-        <div className="flex items-center gap-2 md:hidden">
+        <div className="order-2 ml-auto flex items-center gap-2 md:hidden">
           <CartNavLink compact />
           <MobileNav categories={flat} />
         </div>

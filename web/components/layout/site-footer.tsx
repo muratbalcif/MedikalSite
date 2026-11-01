@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { CategoryNode, SiteConfig } from "@/types/api";
 
 export function SiteFooter({
@@ -12,9 +13,11 @@ export function SiteFooter({
     <footer className="mt-16 border-t border-slate-200 bg-navy text-slate-200">
       <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 md:grid-cols-4">
         <div>
-          <img
-            src="/logo.svg"
-            alt={config.siteName}
+          <Image
+            src="/brand-wordmark.png"
+            alt="ANAMUR ACİL MEDİKAL ve İŞİTME MERKEZİ"
+            width={1429}
+            height={594}
             className="h-24 w-auto rounded-xl bg-white object-contain p-2"
           />
           <p className="mt-2 text-sm text-slate-300">{config.address}</p>
