@@ -81,11 +81,11 @@ export function SiteHeader({ categories }: { categories: CategoryNode[] }) {
       <div className="mx-auto flex max-w-7xl items-center gap-5 px-4 py-4">
         <Link
           href="/"
-          className="order-1 shrink-0"
+          className="order-1 shrink-0 md:order-3"
           aria-label="ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ"
         >
           <Image
-            src="/brand-mark.png"
+            src="/brand-wordmark.png"
             alt=""
             aria-hidden="true"
             width={1024}
@@ -100,10 +100,10 @@ export function SiteHeader({ categories }: { categories: CategoryNode[] }) {
             className="hidden h-16 w-auto max-w-[260px] object-contain md:block"
           />
         </Link>
-        <div className="order-2 hidden flex-1 md:block">
+        <div className="order-3 hidden flex-1 md:order-1 md:block">
           <SearchForm />
         </div>
-        <nav className="order-3 ml-auto hidden items-center gap-1 md:flex">
+        <nav className="order-2 hidden items-center gap-1 md:flex">
           <NavLink href="/account" exact>
             Hesabım
           </NavLink>
