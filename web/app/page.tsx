@@ -6,7 +6,7 @@ import { catalogService } from "@/services/catalog.service";
 
 export const metadata: Metadata = {
   title: "Ana Sayfa",
-  description: "FurkanSoğutma soğutma ve iklimlendirme ürünleri",
+  description: "Anamur Acil Medikal ve Anamur İşitme Merkezi ürünleri",
   alternates: { canonical: "/" },
 };
 
@@ -51,7 +51,7 @@ export default async function HomePage() {
 
   return (
     <div className="space-y-14 md:space-y-16">
-      <section className="relative overflow-hidden rounded-2xl bg-primary text-white shadow-[0_16px_40px_rgba(24,97,149,0.22)]">
+      <section className="relative overflow-hidden rounded-2xl bg-primary text-white shadow-[0_16px_40px_rgba(22,50,79,0.18)]">
         {hero ? (
           <div className="grid md:grid-cols-2">
             <div className="relative min-h-[300px] md:min-h-[360px]">
@@ -66,7 +66,7 @@ export default async function HomePage() {
             </div>
             <div className="flex flex-col justify-center p-8 md:p-12">
               <p className="text-xs font-semibold uppercase tracking-[0.22em] text-primary-light">
-                FurkanSoğutma
+                ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ
               </p>
               <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-semibold md:text-4xl">
                 {hero.title}
@@ -84,7 +84,7 @@ export default async function HomePage() {
                         ? hero.linkValue
                         : "/products"
                 }
-                className="mt-7 inline-flex w-fit rounded-[11px] bg-accent px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent-dark"
+                className="mt-7 inline-flex w-fit rounded-[11px] bg-accent px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent-dark hover:text-white"
               >
                 İncele
               </Link>
@@ -93,14 +93,14 @@ export default async function HomePage() {
         ) : (
           <div className="p-10 md:p-14">
             <h1 className="font-[family-name:var(--font-display)] text-4xl font-semibold">
-              FurkanSoğutma
+              ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ
             </h1>
             <p className="mt-3 max-w-xl text-white/80">
-              Profesyonel soğutma ve iklimlendirme çözümleri.
+              Medikal ürünler ve işitme sağlığı çözümleri.
             </p>
             <Link
               href="/products"
-              className="mt-7 inline-flex rounded-[11px] bg-accent px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent-dark"
+              className="mt-7 inline-flex rounded-[11px] bg-accent px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent-dark hover:text-white"
             >
               Ürünlere göz at
             </Link>
@@ -117,7 +117,7 @@ export default async function HomePage() {
               <Link
                 key={cat.id}
                 href={`/categories/${cat.slug}`}
-                className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-surface transition hover:-translate-y-0.5 hover:border-primary hover:shadow-[0_12px_28px_rgba(15,118,110,0.1)]"
+                className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-surface transition hover:-translate-y-0.5 hover:border-primary hover:shadow-[0_12px_28px_rgba(27,107,143,0.1)]"
               >
                 <div className="flex aspect-[16/10] items-center justify-center bg-surface-secondary">
                   <span className="flex h-12 w-12 items-center justify-center rounded-full bg-primary-light text-lg font-bold text-primary-dark">

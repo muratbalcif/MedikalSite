@@ -201,15 +201,15 @@ export default function CheckoutPage() {
         Checkout
       </h1>
       <div className="flex gap-2 text-sm">
-        <span className={step === 1 ? "font-semibold text-accent" : ""}>
+        <span className={step === 1 ? "font-semibold text-primary" : ""}>
           1. Adres
         </span>
         <span>→</span>
-        <span className={step === 2 ? "font-semibold text-accent" : ""}>
+        <span className={step === 2 ? "font-semibold text-primary" : ""}>
           2. Ödeme
         </span>
         <span>→</span>
-        <span className={step === 3 ? "font-semibold text-accent" : ""}>
+        <span className={step === 3 ? "font-semibold text-primary" : ""}>
           3. Onay
         </span>
       </div>
@@ -360,7 +360,7 @@ export default function CheckoutPage() {
                       onClick={() => setSelectedBankId(bank.id)}
                       className={`rounded-lg border p-4 text-left transition ${
                         selected
-                          ? "border-[#0F766E] bg-[#0F766E]/5 ring-2 ring-[#0F766E]"
+                          ? "border-[#1b6b8f] bg-[#1b6b8f]/5 ring-2 ring-[#1b6b8f]"
                           : "border-slate-200 hover:border-slate-300"
                       }`}
                     >
@@ -368,7 +368,7 @@ export default function CheckoutPage() {
                         <span
                           className={`flex h-9 w-9 items-center justify-center rounded-full text-xs font-bold ${
                             selected
-                              ? "bg-[#0F766E] text-white"
+                              ? "bg-[#1b6b8f] text-white"
                               : "bg-slate-100 text-slate-700"
                           }`}
                         >
@@ -431,8 +431,8 @@ export default function CheckoutPage() {
           </div>
 
           {selectedBank ? (
-            <div className="rounded-md border border-[#0F766E]/30 bg-[#0F766E]/5 p-3 text-sm">
-              <p className="font-semibold text-[#0F766E]">Seçilen hesap</p>
+            <div className="rounded-md border border-[#1b6b8f]/30 bg-[#1b6b8f]/5 p-3 text-sm">
+              <p className="font-semibold text-[#1b6b8f]">Seçilen hesap</p>
               <p>
                 {selectedBank.bankName} · {selectedBank.accountName}
               </p>
@@ -500,7 +500,7 @@ export default function CheckoutPage() {
           <p className="text-sm text-slate-600">Ödeme: Havale / EFT</p>
           {selectedBank ? (
             <div className="rounded border bg-slate-50 p-3 text-sm">
-              <p className="font-medium text-[#0F766E]">Seçilen banka</p>
+              <p className="font-medium text-[#1b6b8f]">Seçilen banka</p>
               <p>
                 {selectedBank.bankName} · {selectedBank.accountName}
               </p>
@@ -521,7 +521,7 @@ export default function CheckoutPage() {
               type="button"
               disabled={creating || !selectedBankId}
               onClick={() => void placeOrder()}
-              className="bg-[#0F766E] hover:bg-[#0d635c]"
+              className="bg-[#1b6b8f] hover:bg-[#16324f]"
             >
               {creating ? "Oluşturuluyor…" : "Siparişi Oluştur"}
             </Button>

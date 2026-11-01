@@ -35,7 +35,7 @@ export default async function AccountPage() {
       <section>
         <div className="mb-3 flex items-center justify-between">
           <h2 className="font-semibold">Son siparişler</h2>
-          <Link href="/account/orders" className="text-sm text-accent">
+          <Link href="/account/orders" className="text-sm text-primary">
             Tümü
           </Link>
         </div>

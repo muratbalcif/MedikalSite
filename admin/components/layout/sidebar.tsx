@@ -16,10 +16,10 @@ export function Sidebar() {
   });
 
   return (
-    <aside className="flex h-full w-64 shrink-0 flex-col border-r border-slate-200 bg-[#0f2744] text-slate-100">
+    <aside className="flex h-full w-64 shrink-0 flex-col border-r border-slate-200 bg-[#16324f] text-slate-100">
       <div className="border-b border-white/10 px-5 py-6">
-        <p className="text-xs uppercase tracking-[0.2em] text-cyan-300/80">
-          FurkanSoğutma
+        <p className="text-xs uppercase tracking-[0.2em] text-[#d9e8ef]/80">
+          ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ
         </p>
         <h1 className="mt-1 font-[family-name:var(--font-display)] text-xl font-semibold tracking-tight">
           Admin Panel
@@ -39,7 +39,7 @@ export function Sidebar() {
               className={clsx(
                 "block rounded-md px-3 py-2 text-sm transition-colors",
                 active
-                  ? "bg-cyan-500/20 text-white"
+                  ? "bg-[#f0f5f8]0/20 text-white"
                   : "text-slate-300 hover:bg-white/5 hover:text-white",
               )}
             >

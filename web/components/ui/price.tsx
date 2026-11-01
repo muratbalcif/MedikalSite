@@ -15,7 +15,7 @@ export function Price({
       <span
         className={
           discounted
-            ? "text-lg font-bold text-accent-dark"
+            ? "text-lg font-bold text-primary-dark"
             : "text-lg font-bold text-foreground"
         }
       >

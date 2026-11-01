@@ -1,8 +1,8 @@
 {
-  "name": "furkansogutma",
+  "name": "anamur-acil-medikal",
   "version": "0.1.0",
   "private": true,
-  "description": "FurkanSoğutma e-commerce monorepo",
+  "description": "ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ web sitesi ve uygulaması",
   "workspaces": [
     "api",
     "admin",

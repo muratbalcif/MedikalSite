@@ -83,7 +83,7 @@ export default function InventoryPage() {
                         <td className="px-4 py-3">
                           <Link
                             href={`/products/${row.productId}?tab=inventory`}
-                            className="text-cyan-700 underline"
+                            className="text-[#1b6b8f] underline"
                           >
                             {row.product?.name ?? row.productId.slice(0, 8)}
                           </Link>

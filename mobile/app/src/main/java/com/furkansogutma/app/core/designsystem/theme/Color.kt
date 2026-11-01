@@ -3,29 +3,29 @@ package com.furkansogutma.app.core.designsystem.theme
 import androidx.compose.ui.graphics.Color
 
 /**
- * Modern Industrial / Cooling Palette
+ * Anamur coastal blue palette
  *
- * Primary: Deep Ocean Blue
- * Secondary: Cool Blue Gray
- * Accent: Fresh Teal
+ * Primary: Bright Teal Blue
+ * Secondary: Turquoise Surf
+ * Deep accent: Deep Twilight
  */
 
 // ─────────────────────────────────────────────
 // Primary
 // ─────────────────────────────────────────────
 
-val Primary = Color(0xFF0F5B78)
-val PrimaryDark = Color(0xFF083B4F)
-val PrimaryLight = Color(0xFFD9EEF5)
-val PrimarySoft = Color(0xFFEEF8FB)
+val Primary = Color(0xFF1B6B8F)
+val PrimaryDark = Color(0xFF16324F)
+val PrimaryLight = Color(0xFFD9E8EF)
+val PrimarySoft = Color(0xFFF0F5F8)
 
 // ─────────────────────────────────────────────
 // Accent
 // ─────────────────────────────────────────────
 
-val Accent = Color(0xFF12A594)
-val AccentDark = Color(0xFF087F72)
-val AccentSoft = Color(0xFFD9F4F0)
+val Accent = Color(0xFF2A7F8F)
+val AccentDark = Color(0xFF1F6076)
+val AccentSoft = Color(0xFFE8F1F2)
 
 // ─────────────────────────────────────────────
 // Surfaces
@@ -33,9 +33,9 @@ val AccentSoft = Color(0xFFD9F4F0)
 
 val White = Color(0xFFFFFFFF)
 
-val Background = Color(0xFFFDFDFD)
+val Background = Color(0xFFF6F8FA)
 val Surface = Color(0xFFFFFFFF)
-val SurfaceSecondary = Color(0xFFF7F7F8)
+val SurfaceSecondary = Color(0xFFEEF3F6)
 val SurfaceElevated = Color(0xFFFFFFFF)
 val SurfaceVariant = SurfaceSecondary
 
@@ -43,23 +43,23 @@ val SurfaceVariant = SurfaceSecondary
 // Borders
 // ─────────────────────────────────────────────
 
-val Outline = Color(0xFFD7E3E9)
-val OutlineStrong = Color(0xFFB5C9D3)
+val Outline = Color(0xFFD5E0E7)
+val OutlineStrong = Color(0xFFB6C7D2)
 
 // ─────────────────────────────────────────────
 // Text
 // ─────────────────────────────────────────────
 
-val OnSurface = Color(0xFF123747)
-val OnSurfaceSecondary = Color(0xFF496673)
-val OnSurfaceMuted = Color(0xFF718791)
-val OnSurfaceFaint = Color(0xFF9AAEB7)
+val OnSurface = Color(0xFF18324B)
+val OnSurfaceSecondary = Color(0xFF465F72)
+val OnSurfaceMuted = Color(0xFF6D8292)
+val OnSurfaceFaint = Color(0xFF8A9BA7)
 
 // ─────────────────────────────────────────────
 // Status
 // ─────────────────────────────────────────────
 
-val Success = Color(0xFF12A594)
+val Success = Color(0xFF2E7D62)
 val Error = Color(0xFFD92D20)
 val Warning = Color(0xFFD99000)
 
@@ -72,8 +72,8 @@ val BadgeRed = Color(0xFFD92D20)
 val OnPrimary = Color(0xFFFFFFFF)
 val OnAccent = Color(0xFFFFFFFF)
 
-/** Wordmark accent for “Soğutma” */
-val BrandMark = Color(0xFF0F7EA0)
+/** Wordmark accent */
+val BrandMark = Color(0xFF2A7F8F)
 
 // ─────────────────────────────────────────────
 // Legacy aliases

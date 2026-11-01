@@ -128,7 +128,7 @@ export default function RegisterPage() {
       </form>
       <p className="mt-4 text-sm">
         Zaten hesabınız var mı?{" "}
-        <Link href="/login" className="text-accent">
+        <Link href="/login" className="text-primary">
           Giriş
         </Link>
       </p>

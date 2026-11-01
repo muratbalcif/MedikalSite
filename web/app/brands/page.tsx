@@ -7,7 +7,7 @@ import { resolveProductImageSrc } from "@/lib/product-image";
 
 export const metadata: Metadata = {
   title: "Markalar",
-  description: "FurkanSoğutma’da yer alan klima ve soğutma markalarını keşfedin.",
+  description: "Anamur Acil Medikal ve İşitme Merkezi markalarını keşfedin.",
   alternates: { canonical: "/brands" },
 };
 

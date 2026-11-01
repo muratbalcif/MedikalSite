@@ -34,7 +34,7 @@ export function AccountNav() {
           <Link
             key={link.href}
             href={link.href}
-            className="flex items-center justify-between gap-2 hover:text-accent"
+            className="flex items-center justify-between gap-2 hover:text-primary"
           >
             <span>{link.label}</span>
             {link.href === "/account/notifications" && unreadCount > 0 ? (

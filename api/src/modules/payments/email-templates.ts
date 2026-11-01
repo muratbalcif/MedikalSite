@@ -1,5 +1,5 @@
 /**
- * Central transactional email templates for FurkanSoğutma.
+ * Central transactional email templates for Anamur Acil Medikal and Anamur İşitme Merkezi.
  * All HTML is built from escaped strings — never render raw user HTML.
  */
 
@@ -267,7 +267,7 @@ const TEMPLATES: Record<
     ctaUrl: v.resetUrl || v.ctaUrl,
   }),
   WELCOME: (v) => ({
-    subject: `${v.siteName ?? 'FurkanSoğutma'} — Hoş geldiniz`,
+    subject: `${v.siteName ?? 'ANAMUR ACİL MEDİKAL'} — Hoş geldiniz`,
     title: 'Hoş geldiniz',
     message:
       `Merhaba ${safe(v.customerName, '')}, hesabınız hazır. Alışverişe başlayabilirsiniz.`.trim(),
@@ -360,7 +360,7 @@ export function buildTransactionalEmail(
   event: string,
   vars: EmailTemplateVars,
 ): { subject: string; html: string; text: string } {
-  const siteName = vars.siteName || 'FurkanSoğutma';
+  const siteName = vars.siteName || 'ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ';
   const supportEmail = vars.supportEmail || 'info@example.com';
   const siteUrl = vars.siteUrl || 'https://example.com';
   const key = resolveTemplateKey(event);

@@ -208,7 +208,7 @@ export default function InvoicesPage() {
                     <td className="px-4 py-3 font-mono text-xs">
                       <Link
                         href={`/sales/${inv.saleId}`}
-                        className="text-cyan-700 underline"
+                        className="text-[#1b6b8f] underline"
                         onClick={(e) => e.stopPropagation()}
                       >
                         {inv.saleNumber}
@@ -243,7 +243,7 @@ export default function InvoicesPage() {
                     <td className="px-4 py-3">
                       <Link
                         href={`/invoices/${inv.id}`}
-                        className="text-cyan-700 underline"
+                        className="text-[#1b6b8f] underline"
                         onClick={(e) => e.stopPropagation()}
                       >
                         Detay

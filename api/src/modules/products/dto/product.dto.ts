@@ -161,7 +161,7 @@ export class CreateProductDto {
   @IsBoolean()
   active?: boolean;
 
-  @ApiPropertyOptional({ example: '12.000 BTU Klima | FurkanSoğutma' })
+  @ApiPropertyOptional({ example: 'Dijital ateş ölçer | ANAMUR ACİL MEDİKAL' })
   @IsOptional()
   @IsString()
   @MaxLength(200)

@@ -52,7 +52,7 @@ export default function LoginPage() {
   });
 
   return (
-    <main className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#0f2744] px-4">
+    <main className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#16324f] px-4">
       <div
         className="pointer-events-none absolute inset-0 opacity-40"
         style={{
@@ -61,8 +61,8 @@ export default function LoginPage() {
         }}
       />
       <div className="relative w-full max-w-md rounded-2xl border border-white/10 bg-white/95 p-8 shadow-2xl backdrop-blur">
-        <p className="text-xs uppercase tracking-[0.25em] text-cyan-700">
-          FurkanSoğutma
+        <p className="text-xs uppercase tracking-[0.25em] text-[#1b6b8f]">
+          ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ
         </p>
         <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-semibold text-slate-900">
           Admin Girişi
@@ -84,7 +84,7 @@ export default function LoginPage() {
               id="admin-email"
               type="email"
               autoComplete="username"
-              className="w-full rounded-lg border border-slate-300 px-3 py-2 text-slate-900 outline-none ring-cyan-600 focus:ring-2"
+              className="w-full rounded-lg border border-slate-300 px-3 py-2 text-slate-900 outline-none ring-[#1b6b8f] focus:ring-2"
               {...register("email")}
             />
             {errors.email ? (
@@ -102,7 +102,7 @@ export default function LoginPage() {
               id="admin-password"
               type="password"
               autoComplete="current-password"
-              className="w-full rounded-lg border border-slate-300 px-3 py-2 text-slate-900 outline-none ring-cyan-600 focus:ring-2"
+              className="w-full rounded-lg border border-slate-300 px-3 py-2 text-slate-900 outline-none ring-[#1b6b8f] focus:ring-2"
               {...register("password")}
             />
             {errors.password ? (
@@ -121,7 +121,7 @@ export default function LoginPage() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full rounded-lg bg-cyan-700 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-cyan-800 disabled:opacity-60"
+            className="w-full rounded-lg bg-[#1b6b8f] px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-[#16324f] disabled:opacity-60"
           >
             {isSubmitting ? "Giriş yapılıyor…" : "Giriş yap"}
           </button>

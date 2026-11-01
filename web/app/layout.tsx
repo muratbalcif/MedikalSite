@@ -17,14 +17,14 @@ export const metadata: Metadata = {
     process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3002",
   ),
   title: {
-    default: "FurkanSoğutma",
-    template: "%s | FurkanSoğutma",
+    default: "ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ",
+    template: "%s | ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ",
   },
-  description: "Soğutma ve iklimlendirme ürünleri e-ticaret mağazası",
+  description: "Anamur Acil Medikal ve Anamur İşitme Merkezi ürün ve hizmetleri",
   openGraph: {
     type: "website",
     locale: "tr_TR",
-    siteName: "FurkanSoğutma",
+    siteName: "ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ",
   },
   twitter: { card: "summary_large_image" },
 };
@@ -42,8 +42,8 @@ export default async function RootLayout({
     ]);
   } catch {
     config = {
-      siteName: "FurkanSoğutma",
-      supportEmail: "info@furkansogutma.net",
+      siteName: "ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ",
+      supportEmail: "",
       supportPhone: "",
       address: "",
       privacyUrl: "/gizlilik",
@@ -63,7 +63,6 @@ export default async function RootLayout({
         <Providers>
           <SiteHeader
             categories={categories}
-            siteName={config?.siteName ?? "FurkanSoğutma"}
           />
           <main className="mx-auto min-h-[60vh] max-w-7xl px-4 py-6">
             {children}

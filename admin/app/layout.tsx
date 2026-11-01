@@ -15,8 +15,8 @@ const display = Source_Serif_4({
 });
 
 export const metadata: Metadata = {
-  title: "FurkanSoğutma Admin",
-  description: "FurkanSoğutma yönetim paneli",
+  title: "ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ | Yönetim",
+  description: "Anamur Acil Medikal ve Anamur İşitme Merkezi yönetim paneli",
 };
 
 export default function RootLayout({

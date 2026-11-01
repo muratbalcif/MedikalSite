@@ -172,7 +172,7 @@ export function CheckoutSuccessClient({
                   onClick={() => setSelectedBankId(bank.id)}
                   className={`rounded-lg border p-4 text-left transition ${
                     selected
-                      ? "border-[#0F766E] bg-[#0F766E]/5 ring-2 ring-[#0F766E]"
+                      ? "border-[#1b6b8f] bg-[#1b6b8f]/5 ring-2 ring-[#1b6b8f]"
                       : "border-slate-200 hover:border-slate-300"
                   }`}
                 >
@@ -180,7 +180,7 @@ export function CheckoutSuccessClient({
                     <span
                       className={`flex h-9 w-9 items-center justify-center rounded-full text-xs font-bold ${
                         selected
-                          ? "bg-[#0F766E] text-white"
+                          ? "bg-[#1b6b8f] text-white"
                           : "bg-slate-100 text-slate-700"
                       }`}
                     >
@@ -205,8 +205,8 @@ export function CheckoutSuccessClient({
           </div>
 
           {selectedBank ? (
-            <div className="rounded-md border border-[#0F766E]/30 bg-[#0F766E]/5 p-3 text-sm">
-              <p className="font-semibold text-[#0F766E]">Seçilen hesap</p>
+            <div className="rounded-md border border-[#1b6b8f]/30 bg-[#1b6b8f]/5 p-3 text-sm">
+              <p className="font-semibold text-[#1b6b8f]">Seçilen hesap</p>
               <p>
                 {selectedBank.bankName} · {selectedBank.accountName}
               </p>
@@ -224,7 +224,7 @@ export function CheckoutSuccessClient({
         {canPay && claimHref ? (
           <Link
             href={claimHref}
-            className="inline-flex items-center justify-center rounded-md bg-[#0F766E] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#0d635c]"
+            className="inline-flex items-center justify-center rounded-md bg-[#1b6b8f] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#16324f]"
           >
             Ödemeyi Yaptım
           </Link>

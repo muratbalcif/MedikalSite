@@ -72,23 +72,21 @@ function CategoryBar({ categories }: { categories: CategoryNode[] }) {
   );
 }
 
-export function SiteHeader({
-  categories,
-  siteName,
-}: {
-  categories: CategoryNode[];
-  siteName: string;
-}) {
+export function SiteHeader({ categories }: { categories: CategoryNode[] }) {
   const flat = flattenCategories(categories).slice(0, 8);
 
   return (
     <header className="sticky top-0 z-40 bg-surface/95 shadow-[0_1px_0_rgba(15,23,42,0.04),0_8px_24px_rgba(15,23,42,0.04)] backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center gap-5 px-4 py-4">
-        <Link href="/" className="shrink-0" aria-label={siteName}>
+        <Link
+          href="/"
+          className="shrink-0"
+          aria-label="ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ"
+        >
           <img
             src="/logo.svg"
-            alt={siteName}
-            className="h-24 w-auto object-contain"
+            alt="ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ"
+            className="h-16 w-auto object-contain"
           />
         </Link>
         <div className="hidden flex-1 md:block">

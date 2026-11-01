@@ -29,7 +29,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
@@ -46,6 +45,7 @@ import com.furkansogutma.app.core.designsystem.components.FurkanStickyBottomBar
 import com.furkansogutma.app.core.designsystem.components.FurkanTextField
 import com.furkansogutma.app.core.designsystem.components.FurkanTopBar
 import com.furkansogutma.app.core.designsystem.theme.FurkanSpacing
+import com.furkansogutma.app.core.designsystem.theme.Primary
 import com.furkansogutma.app.feature.account.domain.repository.AccountRepository
 import com.furkansogutma.app.feature.account.domain.model.Address
 import com.furkansogutma.app.feature.account.domain.model.AddressInput
@@ -492,7 +492,7 @@ fun OrderSuccessRoute(
     var message by remember { mutableStateOf<String?>(null) }
     val scope = rememberCoroutineScope()
     val context = LocalContext.current
-    val teal = Color(0xFF0F766E)
+    val brandBlue = Primary
 
     fun load() {
         if (paymentMethod != "BANK_TRANSFER") {
@@ -561,7 +561,7 @@ fun OrderSuccessRoute(
                 selectedBank?.let { bank ->
                     Spacer(Modifier.height(FurkanSpacing.md))
                     Text("Banka hesabı", style = MaterialTheme.typography.titleMedium)
-                    Text(bank.bankName, fontWeight = FontWeight.SemiBold, color = teal)
+                    Text(bank.bankName, fontWeight = FontWeight.SemiBold, color = brandBlue)
                     Text(bank.accountName)
                     Text(bank.iban, fontWeight = FontWeight.Medium)
                     FurkanOutlinedButton(
@@ -584,7 +584,7 @@ fun OrderSuccessRoute(
         }
         message?.let {
             Spacer(Modifier.height(FurkanSpacing.sm))
-            Text(it, color = teal)
+            Text(it, color = brandBlue)
         }
         Spacer(Modifier.height(FurkanSpacing.lg))
         FurkanButton("Siparişi Görüntüle", Modifier.fillMaxWidth(), enabled = !loading) {

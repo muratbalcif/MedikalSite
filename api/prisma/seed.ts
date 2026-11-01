@@ -461,17 +461,17 @@ async function seedLegalPages(): Promise<void> {
     {
       slug: 'kvkk',
       title: 'KVKK Aydınlatma Metni',
-      body: 'FurkanSoğutma KVKK aydınlatma metni. Bu içerik yönetim panelinden düzenlenebilir.',
+      body: 'ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ KVKK aydınlatma metni. Bu içerik yönetim panelinden düzenlenebilir.',
     },
     {
       slug: 'privacy',
       title: 'Gizlilik Politikası',
-      body: 'FurkanSoğutma gizlilik politikası. Bu içerik yönetim panelinden düzenlenebilir.',
+      body: 'ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ gizlilik politikası. Bu içerik yönetim panelinden düzenlenebilir.',
     },
     {
       slug: 'terms',
       title: 'Kullanım Koşulları',
-      body: 'FurkanSoğutma kullanım koşulları. Bu içerik yönetim panelinden düzenlenebilir.',
+      body: 'ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ kullanım koşulları. Bu içerik yönetim panelinden düzenlenebilir.',
     },
   ];
   for (const page of defaults) {

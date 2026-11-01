@@ -33,7 +33,7 @@ function CopyButton({ value }: { value: string }) {
   return (
     <button
       type="button"
-      className="ml-2 text-xs text-cyan-700 underline"
+      className="ml-2 text-xs text-[#1b6b8f] underline"
       onClick={async () => {
         await navigator.clipboard.writeText(value);
         setCopied(true);
@@ -156,7 +156,7 @@ export default function InvoiceDetailPage() {
               </p>
             ) : null}
           </div>
-          <Link href="/invoices" className="text-sm text-cyan-700 underline">
+          <Link href="/invoices" className="text-sm text-[#1b6b8f] underline">
             ← Faturalar
           </Link>
         </div>
@@ -195,7 +195,7 @@ export default function InvoiceDetailPage() {
                 <p className="text-slate-500">Satış</p>
                 <Link
                   href={`/sales/${inv.saleId}`}
-                  className="font-mono text-cyan-700 underline"
+                  className="font-mono text-[#1b6b8f] underline"
                 >
                   {inv.saleNumber}
                 </Link>
@@ -206,7 +206,7 @@ export default function InvoiceDetailPage() {
                 {inv.customer ? (
                   <Link
                     href={`/customers/${inv.customerId}`}
-                    className="text-xs text-cyan-700 underline"
+                    className="text-xs text-[#1b6b8f] underline"
                   >
                     Müşteri kartı
                   </Link>
@@ -405,7 +405,7 @@ export default function InvoiceDetailPage() {
                     type="button"
                     disabled={syncMutation.isPending}
                     onClick={() => syncMutation.mutate()}
-                    className="rounded-md border border-cyan-300 bg-cyan-50 px-3 py-1.5 text-sm text-cyan-900 hover:bg-cyan-100 disabled:opacity-60"
+                    className="rounded-md border border-[#d9e8ef] bg-[#f0f5f8] px-3 py-1.5 text-sm text-[#16324f] hover:bg-[#d9e8ef] disabled:opacity-60"
                   >
                     {syncMutation.isPending
                       ? "Yenileniyor…"
@@ -421,11 +421,11 @@ export default function InvoiceDetailPage() {
             </section>
 
             {can("invoice.create") && inv.canFormalize ? (
-              <section className="rounded-xl border border-cyan-200 bg-cyan-50 p-5 space-y-3">
-                <h2 className="font-semibold text-cyan-950">
+              <section className="rounded-xl border border-[#d9e8ef] bg-[#f0f5f8] p-5 space-y-3">
+                <h2 className="font-semibold text-[#16324f]">
                   Faturayı resmileştir
                 </h2>
-                <p className="text-sm text-cyan-900">
+                <p className="text-sm text-[#16324f]">
                   KolayBi taslak faturayı e-Fatura / e-Arşiv olarak GİB’e
                   gönderir. Senaryoyu KolayBi cari kaydına göre seçer.
                 </p>
@@ -442,7 +442,7 @@ export default function InvoiceDetailPage() {
                     }
                     formalizeMutation.mutate();
                   }}
-                  className="rounded-md bg-cyan-700 px-4 py-2 text-sm font-medium text-white hover:bg-cyan-800 disabled:opacity-60"
+                  className="rounded-md bg-[#1b6b8f] px-4 py-2 text-sm font-medium text-white hover:bg-[#16324f] disabled:opacity-60"
                 >
                   {formalizeMutation.isPending
                     ? "Gönderiliyor…"

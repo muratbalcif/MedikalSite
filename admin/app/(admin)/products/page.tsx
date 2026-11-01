@@ -87,7 +87,7 @@ export default function ProductsPage() {
             {can("product.create") && (
               <Link
                 href="/products/new"
-                className="rounded-md bg-[#0f2744] px-3 py-2 text-sm text-white"
+                className="rounded-md bg-[#16324f] px-3 py-2 text-sm text-white"
               >
                 Yeni Ürün
               </Link>
@@ -130,7 +130,7 @@ export default function ProductsPage() {
         </form>
 
         {selected.length > 0 && can("product.update") && (
-          <div className="flex flex-wrap gap-2 rounded-lg border border-cyan-200 bg-cyan-50 px-3 py-2 text-sm">
+          <div className="flex flex-wrap gap-2 rounded-lg border border-[#d9e8ef] bg-[#f0f5f8] px-3 py-2 text-sm">
             <span>{selected.length} seçili</span>
             <button
               type="button"
@@ -248,14 +248,14 @@ export default function ProductsPage() {
                       <div className="flex flex-wrap gap-2 text-xs">
                         <Link
                           href={`/products/${product.id}`}
-                          className="text-cyan-700 underline"
+                          className="text-[#1b6b8f] underline"
                         >
                           Görüntüle
                         </Link>
                         {can("product.update") && (
                           <Link
                             href={`/products/${product.id}?tab=general`}
-                            className="text-cyan-700 underline"
+                            className="text-[#1b6b8f] underline"
                           >
                             Düzenle
                           </Link>

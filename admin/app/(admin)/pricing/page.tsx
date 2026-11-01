@@ -170,7 +170,7 @@ export default function PricingPage() {
               onClick={() => setTab(key)}
               className={`rounded-md px-3 py-1.5 text-sm ${
                 tab === key
-                  ? "bg-[#0f2744] text-white"
+                  ? "bg-[#16324f] text-white"
                   : "bg-slate-100 text-slate-700"
               }`}
             >
@@ -199,7 +199,7 @@ export default function PricingPage() {
                       <button
                         type="button"
                         className={`w-full rounded px-2 py-1.5 text-left hover:bg-slate-50 ${
-                          selectedProductId === p.id ? "bg-cyan-50" : ""
+                          selectedProductId === p.id ? "bg-[#f0f5f8]" : ""
                         }`}
                         onClick={() => setSelectedProductId(p.id)}
                       >
@@ -342,7 +342,7 @@ export default function PricingPage() {
                   <button
                     type="submit"
                     disabled={createProductPrice.isPending}
-                    className="rounded-md bg-[#0f2744] px-3 py-2 text-sm text-white disabled:opacity-50 sm:col-span-2"
+                    className="rounded-md bg-[#16324f] px-3 py-2 text-sm text-white disabled:opacity-50 sm:col-span-2"
                   >
                     {createProductPrice.isPending
                       ? "Kaydediliyor…"
@@ -372,7 +372,7 @@ export default function PricingPage() {
                       <button
                         type="button"
                         className={`w-full rounded px-2 py-1.5 text-left hover:bg-slate-50 ${
-                          selectedCustomerId === c.id ? "bg-cyan-50" : ""
+                          selectedCustomerId === c.id ? "bg-[#f0f5f8]" : ""
                         }`}
                         onClick={() => setSelectedCustomerId(c.id)}
                       >
@@ -517,7 +517,7 @@ export default function PricingPage() {
                   <button
                     type="submit"
                     disabled={createCustomerPrice.isPending}
-                    className="rounded-md bg-[#0f2744] px-3 py-2 text-sm text-white disabled:opacity-50 sm:col-span-2"
+                    className="rounded-md bg-[#16324f] px-3 py-2 text-sm text-white disabled:opacity-50 sm:col-span-2"
                   >
                     {createCustomerPrice.isPending
                       ? "Kaydediliyor…"

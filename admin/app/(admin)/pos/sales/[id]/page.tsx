@@ -156,13 +156,13 @@ export default function PosSaleDetailPage() {
             {canRefund ? (
               <button
                 type="button"
-                className="rounded-md bg-[#0f2744] px-3 py-2 text-sm text-white"
+                className="rounded-md bg-[#16324f] px-3 py-2 text-sm text-white"
                 onClick={openReturn}
               >
                 İade başlat
               </button>
             ) : null}
-            <Link href="/pos/sales" className="text-sm text-cyan-700 underline">
+            <Link href="/pos/sales" className="text-sm text-[#1b6b8f] underline">
               ← Satışlar
             </Link>
           </div>
@@ -442,7 +442,7 @@ export default function PosSaleDetailPage() {
                 </button>
                 <button
                   type="button"
-                  className="rounded-md bg-[#0f2744] px-3 py-2 text-sm text-white disabled:opacity-50"
+                  className="rounded-md bg-[#16324f] px-3 py-2 text-sm text-white disabled:opacity-50"
                   disabled={returnMutation.isPending || estimated <= 0}
                   onClick={() => {
                     setReturnError(null);

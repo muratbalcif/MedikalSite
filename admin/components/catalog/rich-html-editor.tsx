@@ -96,7 +96,7 @@ export function RichHtmlEditor({
         </div>
         <button
           type="button"
-          className={`${btn} ml-auto ${preview ? 'bg-teal-50 text-teal-800' : ''}`}
+          className={`${btn} ml-auto ${preview ? 'bg-[#f0f5f8] text-[#16324f]' : ''}`}
           onClick={() => setPreview((p) => !p)}
         >
           {preview ? 'Düzenle' : 'Preview'}
@@ -114,7 +114,7 @@ export function RichHtmlEditor({
           role="textbox"
           aria-multiline
           data-placeholder={placeholder}
-          className="min-h-[160px] rounded-b-lg border border-slate-200 bg-white p-4 text-sm text-slate-800 outline-none focus:ring-2 focus:ring-teal-600/30 empty:before:text-slate-400 empty:before:content-[attr(data-placeholder)] [&_table]:w-full [&_table]:border-collapse [&_td]:border [&_td]:border-slate-200 [&_td]:px-2 [&_td]:py-1 [&_th]:border [&_th]:border-slate-200 [&_th]:bg-slate-50 [&_th]:px-2 [&_th]:py-1"
+          className="min-h-[160px] rounded-b-lg border border-slate-200 bg-white p-4 text-sm text-slate-800 outline-none focus:ring-2 focus:ring-[#1b6b8f]/30 empty:before:text-slate-400 empty:before:content-[attr(data-placeholder)] [&_table]:w-full [&_table]:border-collapse [&_td]:border [&_td]:border-slate-200 [&_td]:px-2 [&_td]:py-1 [&_th]:border [&_th]:border-slate-200 [&_th]:bg-slate-50 [&_th]:px-2 [&_th]:py-1"
           onInput={emit}
           onBlur={emit}
         />

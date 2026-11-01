@@ -76,7 +76,7 @@ export default function LoginPageClient() {
       </form>
       <p className="mt-4 text-sm text-slate-600">
         Hesabınız yok mu?{" "}
-        <Link href="/register" className="text-accent">
+        <Link href="/register" className="text-primary">
           Kayıt ol
         </Link>
       </p>

@@ -358,15 +358,15 @@ export default function BankTransfersClient() {
                           onClick={() => setSelectedBankId(bank.id)}
                           className={`min-h-[11rem] rounded-xl border p-4 text-left transition disabled:cursor-not-allowed disabled:opacity-60 ${
                             selected
-                              ? "border-[#0F766E] bg-[#0F766E]/5 shadow-sm ring-2 ring-[#0F766E]"
-                              : "border-slate-200 bg-white hover:border-[#0F766E]/40 hover:shadow-sm"
+                              ? "border-[#1b6b8f] bg-[#1b6b8f]/5 shadow-sm ring-2 ring-[#1b6b8f]"
+                              : "border-slate-200 bg-white hover:border-[#1b6b8f]/40 hover:shadow-sm"
                           }`}
                         >
                           <div className="mb-3 flex items-center gap-3">
                             <span
                               className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-xs font-bold ${
                                 selected
-                                  ? "bg-[#0F766E] text-white"
+                                  ? "bg-[#1b6b8f] text-white"
                                   : `${brand.bgClass} ${brand.textClass}`
                               }`}
                               aria-hidden
@@ -413,10 +413,10 @@ export default function BankTransfersClient() {
               </p>
 
               {selectedBank || isPendingReview ? (
-                <div className="rounded-lg border border-[#0F766E]/30 bg-[#0F766E]/5 p-4 text-sm">
+                <div className="rounded-lg border border-[#1b6b8f]/30 bg-[#1b6b8f]/5 p-4 text-sm">
                   {selectedBank ? (
                     <>
-                      <p className="font-semibold text-[#0F766E]">
+                      <p className="font-semibold text-[#1b6b8f]">
                         Seçilen hesap
                       </p>
                       <p>
@@ -540,7 +540,7 @@ export default function BankTransfersClient() {
                 type="button"
                 disabled={!canSubmit || create.isPending}
                 onClick={() => create.mutate()}
-                className="min-h-11 bg-[#0F766E] hover:bg-[#0d635c]"
+                className="min-h-11 bg-[#1b6b8f] hover:bg-[#16324f]"
                 aria-busy={create.isPending}
               >
                 {create.isPending

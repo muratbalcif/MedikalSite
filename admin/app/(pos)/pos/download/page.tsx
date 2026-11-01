@@ -13,13 +13,13 @@ export default function PosWindowsDownloadPage() {
     <RequireAuth>
       <div className="mx-auto flex w-full max-w-xl flex-1 flex-col justify-center gap-6 p-8">
         <div>
-          <p className="text-sm font-semibold text-teal-700">FurkanSoğutma POS</p>
+          <p className="text-sm font-semibold text-[#1b6b8f]">Anamur Acil Medikal POS</p>
           <h1 className="mt-1 text-3xl font-bold text-slate-900">
             Windows uygulamasını indir
           </h1>
           <p className="mt-3 text-slate-600">
             Masaüstü kasa için NSIS kurulum dosyasını indirin. Tarayıcı POS için{" "}
-            <Link href="/pos" className="font-medium text-teal-700 underline">
+            <Link href="/pos" className="font-medium text-[#1b6b8f] underline">
               /pos
             </Link>{" "}
             sayfasını kullanabilirsiniz.
@@ -28,7 +28,7 @@ export default function PosWindowsDownloadPage() {
 
         <a
           href={POS_WINDOWS_DOWNLOAD_URL}
-          className="inline-flex items-center justify-center rounded-xl bg-teal-700 px-6 py-4 text-center text-lg font-semibold text-white hover:bg-teal-800"
+          className="inline-flex items-center justify-center rounded-xl bg-[#1b6b8f] px-6 py-4 text-center text-lg font-semibold text-white hover:bg-[#16324f]"
         >
           {POS_WINDOWS_SETUP_FILENAME} indir
         </a>
@@ -38,7 +38,7 @@ export default function PosWindowsDownloadPage() {
           sürümler:{" "}
           <a
             href={POS_WINDOWS_RELEASES_URL}
-            className="font-medium text-teal-700 underline"
+            className="font-medium text-[#1b6b8f] underline"
             target="_blank"
             rel="noopener noreferrer"
           >

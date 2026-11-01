@@ -173,7 +173,7 @@ export default function CustomerDetailPage() {
                   onClick={() => setTab(t)}
                   className={`rounded-md px-3 py-1.5 text-sm ${
                     tab === t
-                      ? "bg-[#0f2744] text-white"
+                      ? "bg-[#16324f] text-white"
                       : "bg-slate-100 text-slate-700"
                   }`}
                 >
@@ -310,7 +310,7 @@ export default function CustomerDetailPage() {
                     />
                     <button
                       type="submit"
-                      className="rounded bg-[#0f2744] px-3 py-1.5 text-sm text-white"
+                      className="rounded bg-[#16324f] px-3 py-1.5 text-sm text-white"
                     >
                       Kaydet
                     </button>
@@ -356,7 +356,7 @@ export default function CustomerDetailPage() {
             {tab === "Audit Log" && (
               <p className="text-sm text-slate-500">
                 Audit kayıtları{" "}
-                <Link href="/audit" className="text-cyan-800 underline">
+                <Link href="/audit" className="text-[#16324f] underline">
                   Audit Logs
                 </Link>{" "}
                 sayfasından entityId={id} ile filtrelenebilir.
@@ -427,7 +427,7 @@ function OrdersTab({
                 <td className="px-3 py-2">
                   <Link
                     href={`/orders/${o.id}`}
-                    className="text-cyan-800 hover:underline"
+                    className="text-[#16324f] hover:underline"
                   >
                     {o.orderNumber}
                   </Link>

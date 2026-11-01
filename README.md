@@ -1,11 +1,11 @@
-# FurkanSoğutma
+# ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ
 
-E-commerce platform for FurkanSoğutma with three clients sharing one NestJS backend.
+Medikal ürünler ve işitme merkezi hizmetleri için web sitesi ve uygulama; istemciler NestJS API’yi paylaşır.
 
 ## Monorepo layout
 
 ```text
-furkansogutma/
+anamur-acil-medikal/
 ├── package.json   # npm workspaces root
 ├── api/           # NestJS REST API
 ├── web/           # Public storefront (Next.js — milestone 10)

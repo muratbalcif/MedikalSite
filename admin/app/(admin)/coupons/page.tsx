@@ -133,7 +133,7 @@ export default function CouponsPage() {
             />
             <button
               type="submit"
-              className="rounded-md bg-[#0f2744] px-3 py-2 text-sm text-white"
+              className="rounded-md bg-[#16324f] px-3 py-2 text-sm text-white"
             >
               Oluştur
             </button>

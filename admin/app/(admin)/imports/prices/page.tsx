@@ -9,7 +9,7 @@ export default function PriceImportPage() {
   return (
     <ModulePage permission="import.create">
       <div className="space-y-4">
-        <Link href="/imports" className="text-sm text-cyan-700 underline">
+        <Link href="/imports" className="text-sm text-[#1b6b8f] underline">
           ← Toplu işlemler
         </Link>
         <ImportFlow

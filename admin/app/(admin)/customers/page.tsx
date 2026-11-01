@@ -158,7 +158,7 @@ export default function CustomersPage() {
                     setShowImport(false);
                     setShowInvite((v) => !v);
                   }}
-                  className="rounded-md bg-[#0f2744] px-3 py-2 text-sm text-white"
+                  className="rounded-md bg-[#16324f] px-3 py-2 text-sm text-white"
                 >
                   {showInvite ? "Daveti kapat" : "Kurumsal davet"}
                 </button>
@@ -238,7 +238,7 @@ export default function CustomersPage() {
             <button
               type="submit"
               disabled={importMutation.isPending}
-              className="rounded-md bg-[#0f2744] px-3 py-2 text-sm text-white disabled:opacity-50"
+              className="rounded-md bg-[#16324f] px-3 py-2 text-sm text-white disabled:opacity-50"
             >
               {importMutation.isPending ? "İçe aktarılıyor…" : "Import et"}
             </button>
@@ -360,7 +360,7 @@ export default function CustomersPage() {
               <button
                 type="submit"
                 disabled={inviteMutation.isPending}
-                className="rounded-md bg-[#0f2744] px-3 py-2 text-sm text-white disabled:opacity-50"
+                className="rounded-md bg-[#16324f] px-3 py-2 text-sm text-white disabled:opacity-50"
               >
                 {inviteMutation.isPending ? "Gönderiliyor…" : "Davet gönder"}
               </button>
@@ -421,7 +421,7 @@ export default function CustomersPage() {
                     <td className="px-3 py-2">
                       <Link
                         href={`/customers/${c.id}`}
-                        className="font-medium text-cyan-800 hover:underline"
+                        className="font-medium text-[#16324f] hover:underline"
                       >
                         {c.firstName} {c.lastName}
                       </Link>

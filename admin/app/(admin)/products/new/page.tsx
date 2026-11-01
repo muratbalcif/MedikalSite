@@ -88,7 +88,7 @@ export default function NewProductPage() {
           <h2 className="font-[family-name:var(--font-display)] text-2xl font-semibold">
             Yeni Ürün
           </h2>
-          <Link href="/products" className="text-sm text-cyan-700 underline">
+          <Link href="/products" className="text-sm text-[#1b6b8f] underline">
             Listeye dön
           </Link>
         </div>
@@ -272,7 +272,7 @@ export default function NewProductPage() {
           <button
             type="submit"
             disabled={createMutation.isPending}
-            className="rounded-md bg-[#0f2744] px-4 py-2 text-sm text-white disabled:opacity-50"
+            className="rounded-md bg-[#16324f] px-4 py-2 text-sm text-white disabled:opacity-50"
           >
             {createMutation.isPending ? "Kaydediliyor…" : "Ürün oluştur"}
           </button>

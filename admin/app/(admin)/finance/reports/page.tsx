@@ -48,7 +48,7 @@ export default function FinanceReportsPage() {
               onClick={() => setReport(r.id)}
               className={`rounded-md px-3 py-1.5 text-sm ${
                 report === r.id
-                  ? "bg-[#0f2744] text-white"
+                  ? "bg-[#16324f] text-white"
                   : "border bg-white"
               }`}
             >

@@ -74,7 +74,7 @@ export default function ForgotPasswordClient() {
         </Button>
       </form>
       <p className="mt-4 text-sm">
-        <Link href="/login" className="text-accent">
+        <Link href="/login" className="text-primary">
           Girişe dön
         </Link>
       </p>

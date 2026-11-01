@@ -2,39 +2,39 @@
 
 :root {
   /* =========================================================
-     Furkan Soğutma Design System
-     60-30-10 palette — shared with Android
+     Anamur Acil Medikal Design System
+     Anamur coastal blue palette — shared with Android
      ========================================================= */
 
   /* Primary — 60% */
-  --primary: #186195;
-  --primary-dark: #124a73;
-  --primary-light: #d6e6f2;
-  --primary-soft: #eaf2f8;
+  --primary: #1b6b8f;
+  --primary-dark: #16324f;
+  --primary-light: #d9e8ef;
+  --primary-soft: #f0f5f8;
 
   /* Accent — 10% */
-  --accent: #169580;
-  --accent-dark: #0e5a4d;
-  --accent-soft: #d7ede8;
+  --accent: #2a7f8f;
+  --accent-dark: #16324f;
+  --accent-soft: #e8f1f2;
 
   /* Surfaces / Background — 30% */
   --white: #ffffff;
-  --background: #fcfcfcd0;
+  --background: #f6f8fa;
   --surface: #ffffff;
-  --surface-secondary: #f4f8fb;
+  --surface-secondary: #eef3f6;
 
   /* Borders */
-  --border: #d5e2ec;
-  --border-strong: #b7cbd9;
+  --border: #d5e0e7;
+  --border-strong: #2a7f8f;
 
   /* Text */
-  --foreground: #186195;
-  --text-secondary: #4a6f8a;
-  --muted: #5f8199;
-  --text-faint: #7a97ad;
+  --foreground: #18324b;
+  --text-secondary: #465f72;
+  --muted: #6d8292;
+  --text-faint: #6d8292;
 
   /* Semantic */
-  --success: #137262;
+  --success: #2e7d62;
   --error: #dc2626;
   --warning: #c27803;
   --badge-red: #dc2626;
@@ -44,8 +44,8 @@
   --on-accent: #ffffff;
 
   /* Legacy aliases */
-  --navy: var(--primary);
-  --navy-dark: var(--primary-dark);
+  --navy: #16324f;
+  --navy-dark: #16324f;
 }
 
 @theme inline {

@@ -175,7 +175,7 @@ export default function NewSalePage() {
               Müşteri seçimi opsiyonel — seçilmezse perakende satış olur.
             </p>
           </div>
-          <Link href="/sales" className="text-sm text-cyan-700 underline">
+          <Link href="/sales" className="text-sm text-[#1b6b8f] underline">
             ← Satışlar
           </Link>
         </div>
@@ -428,7 +428,7 @@ export default function NewSalePage() {
               setError(null);
               setConfirmOpen(true);
             }}
-            className="w-full rounded-md bg-cyan-700 px-4 py-3 text-sm font-semibold text-white hover:bg-cyan-800 disabled:cursor-not-allowed disabled:opacity-50"
+            className="w-full rounded-md bg-[#1b6b8f] px-4 py-3 text-sm font-semibold text-white hover:bg-[#16324f] disabled:cursor-not-allowed disabled:opacity-50"
           >
             Satışı Tamamla
           </button>
@@ -480,7 +480,7 @@ export default function NewSalePage() {
                 </button>
                 <button
                   type="button"
-                  className="flex-1 rounded-md bg-cyan-700 px-3 py-2 text-sm font-medium text-white"
+                  className="flex-1 rounded-md bg-[#1b6b8f] px-3 py-2 text-sm font-medium text-white"
                   disabled={createMutation.isPending}
                   onClick={() => createMutation.mutate()}
                 >

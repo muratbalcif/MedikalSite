@@ -254,7 +254,7 @@ export default function PosReportsPage() {
               onClick={() => setPreset(p.id)}
               className={`rounded-md px-3 py-1.5 text-sm ${
                 preset === p.id
-                  ? "bg-[#0f2744] text-white"
+                  ? "bg-[#16324f] text-white"
                   : "border bg-white"
               }`}
             >

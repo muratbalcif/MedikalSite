@@ -74,7 +74,7 @@ export default function CampaignDetailPage() {
   return (
     <ModulePage permission="campaign.read">
       <div className="space-y-6">
-        <Link href="/campaigns" className="text-sm text-cyan-700 underline">
+        <Link href="/campaigns" className="text-sm text-[#1b6b8f] underline">
           ← Kampanyalar
         </Link>
         <div className="flex flex-wrap items-start justify-between gap-3">
@@ -120,7 +120,7 @@ export default function CampaignDetailPage() {
             />
             <button
               type="button"
-              className="rounded-md bg-[#0f2744] px-3 py-2 text-sm text-white"
+              className="rounded-md bg-[#16324f] px-3 py-2 text-sm text-white"
               disabled={!productId}
               onClick={() => addProduct.mutate()}
             >

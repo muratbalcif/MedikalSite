@@ -4,7 +4,7 @@ test.describe("Public storefront", () => {
   test("homepage opens", async ({ page }) => {
     await page.goto("/");
     await expect(page.getByRole("banner")).toBeVisible();
-    await expect(page.getByText("FurkanSoğutma").first()).toBeVisible();
+    await expect(page.getByText("ANAMUR ACİL MEDİKAL").first()).toBeVisible();
   });
 
   test("products list opens", async ({ page }) => {

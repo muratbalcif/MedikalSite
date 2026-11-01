@@ -122,7 +122,7 @@ export default async function CampaignLandingPage({
             >
               <h3 className="font-medium text-navy">{product.name}</h3>
               {product.onCampaign ? (
-                <span className="mt-1 inline-block text-xs font-semibold text-accent">
+                <span className="mt-1 inline-block text-xs font-semibold text-primary">
                   Kampanya
                 </span>
               ) : null}

@@ -2,25 +2,25 @@
 @source "../../pos/src/**/*.{js,ts,jsx,tsx}";
 
 :root {
-  --background: #f4f7fb;
-  --foreground: #0f172a;
+  --background: #f6f8fa;
+  --foreground: #18324b;
   --panel: #ffffff;
-  --accent: #0891b2;
-  --navy: #0f2744;
+  --accent: #2a7f8f;
+  --navy: #16324f;
 
   /* Shared with furkansogutma-pos UI (admin /pos sell screen) */
-  --primary: #0f766e;
-  --primary-dark: #115e59;
-  --primary-light: #ccfbf1;
-  --pos-bg: #f8fafc;
-  --pos-text: #0f172a;
+  --primary: #1b6b8f;
+  --primary-dark: #16324f;
+  --primary-light: #d9e8ef;
+  --pos-bg: #eef3f6;
+  --pos-text: #18324b;
   --error: #dc2626;
-  --success: #16a34a;
-  --muted: #64748b;
-  --border: #e2e8f0;
+  --success: #2e7d62;
+  --muted: #6d8292;
+  --border: #d5e0e7;
   --surface: #ffffff;
-  --bg: #f8fafc;
-  --text: #0f172a;
+  --bg: #f6f8fa;
+  --text: #18324b;
 }
 
 @theme inline {

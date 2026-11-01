@@ -35,7 +35,7 @@ export class SiteController {
   getConfig(): SiteConfigResponseDto {
     return {
       siteName:
-        this.config.get('SITE_NAME', { infer: true }) ?? 'FurkanSoğutma',
+        this.config.get('SITE_NAME', { infer: true }) ?? 'ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ',
       supportEmail:
         this.config.get('SITE_SUPPORT_EMAIL', { infer: true }) ??
         'info@furkansogutma.net',

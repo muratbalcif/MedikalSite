@@ -36,7 +36,7 @@ export default function AdminPosSellPage() {
         </p>
         <button
           type="button"
-          className="rounded-xl bg-teal-700 px-6 py-3 font-semibold text-white"
+          className="rounded-xl bg-[#1b6b8f] px-6 py-3 font-semibold text-white"
           onClick={() => router.push("/dashboard")}
         >
           Admin&apos;e dön

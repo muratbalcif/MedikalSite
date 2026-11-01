@@ -6,7 +6,7 @@ import { catalogService } from "@/services/catalog.service";
 
 export const metadata: Metadata = {
   title: "Kampanyalar",
-  description: "Aktif FurkanSoğutma kampanyaları",
+  description: "Anamur Acil Medikal ve İşitme Merkezi kampanyaları",
   alternates: { canonical: "/campaigns" },
 };
 

@@ -276,7 +276,7 @@ export default function PosSalesPage() {
                     <td className="px-4 py-3">
                       <Link
                         href={`/pos/sales/${row.id}`}
-                        className="font-mono text-xs text-cyan-700 underline"
+                        className="font-mono text-xs text-[#1b6b8f] underline"
                       >
                         {row.saleNumber}
                       </Link>

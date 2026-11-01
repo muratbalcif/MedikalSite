@@ -15,7 +15,7 @@ export function Badge({
         tone === "success" && "bg-emerald-100 text-success",
         tone === "warning" && "bg-amber-100 text-warning",
         tone === "danger" && "bg-red-100 text-error",
-        tone === "accent" && "bg-amber-100 text-accent-dark",
+        tone === "accent" && "bg-amber-100 text-primary-dark",
       )}
     >
       {children}

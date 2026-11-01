@@ -26,7 +26,7 @@ export default function DashboardPage() {
           {(user?.roles ?? []).map((role) => (
             <span
               key={role}
-              className="rounded-md bg-[#0f2744] px-2 py-1 text-xs text-cyan-100"
+              className="rounded-md bg-[#16324f] px-2 py-1 text-xs text-[#f0f5f8]"
             >
               {role}
             </span>

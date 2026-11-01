@@ -1,4 +1,4 @@
-# Multi-stage production image for FurkanSoğutma Web (Next.js standalone).
+# Multi-stage production image for ANAMUR ACİL MEDİKAL Web (Next.js standalone).
 # Build from repository root:
 #   docker build -f web/Dockerfile \
 #     --build-arg NEXT_PUBLIC_API_BASE_URL=https://api.example.com/api/v1 \

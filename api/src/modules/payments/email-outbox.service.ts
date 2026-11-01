@@ -162,7 +162,7 @@ export class EmailOutboxService implements OnModuleInit, OnModuleDestroy {
     }
 
     const siteName =
-      this.config.get('SITE_NAME', { infer: true }) || 'FurkanSoğutma';
+      this.config.get('SITE_NAME', { infer: true }) || 'ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ';
     const support =
       this.config.get('SITE_SUPPORT_EMAIL', { infer: true }) || undefined;
     const webBase =

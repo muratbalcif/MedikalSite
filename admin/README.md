@@ -1,4 +1,4 @@
-# FurkanSoğutma — Admin Panel
+# ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ — Yönetim Paneli
 
 Next.js admin client for the NestJS API (`/api/v1`).
 

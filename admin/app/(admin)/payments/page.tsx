@@ -141,7 +141,7 @@ export default function PaymentsPage() {
             </h1>
             <p className="text-sm text-slate-600">
               Pending havale ödemelerini buradan onaylayabilir veya{" "}
-              <Link href="/bank-transfers" className="text-cyan-800 underline">
+              <Link href="/bank-transfers" className="text-[#16324f] underline">
                 Havale Bildirimleri
               </Link>{" "}
               sayfasını kullanabilirsiniz.
@@ -236,7 +236,7 @@ export default function PaymentsPage() {
                     <tr
                       key={row.id}
                       className={`cursor-pointer border-t border-slate-100 hover:bg-slate-50 ${
-                        selectedId === row.id ? "bg-cyan-50" : ""
+                        selectedId === row.id ? "bg-[#f0f5f8]" : ""
                       }`}
                       onClick={() => {
                         setActionError(null);
@@ -313,7 +313,7 @@ export default function PaymentsPage() {
                     <dd>
                       <Link
                         href={`/orders/${detail.orderId}`}
-                        className="text-cyan-800 underline"
+                        className="text-[#16324f] underline"
                       >
                         {detail.orderId}
                       </Link>

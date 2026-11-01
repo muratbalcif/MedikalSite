@@ -210,7 +210,7 @@ export function NotificationsClient() {
                     {unread ? (
                       <button
                         type="button"
-                        className="mt-2 text-sm font-semibold text-accent"
+                        className="mt-2 text-sm font-semibold text-primary"
                         onClick={() => markRead.mutate(item.id)}
                       >
                         Okundu işaretle
@@ -253,7 +253,7 @@ export function NotificationsClient() {
         )}
         <p className="mt-3 text-xs text-slate-400">
           Daha fazla hesap ayarı için{" "}
-          <Link href="/account/settings" className="text-accent underline">
+          <Link href="/account/settings" className="text-primary underline">
             Ayarlar
           </Link>
           .

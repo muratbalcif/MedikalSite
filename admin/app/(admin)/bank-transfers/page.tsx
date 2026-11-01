@@ -162,7 +162,7 @@ export default function BankTransfersPage() {
                   <tr
                     key={row.id}
                     className={`cursor-pointer border-t border-slate-100 hover:bg-slate-50 ${
-                      selectedId === row.id ? "bg-cyan-50" : ""
+                      selectedId === row.id ? "bg-[#f0f5f8]" : ""
                     }`}
                     onClick={() => {
                       setActionError(null);

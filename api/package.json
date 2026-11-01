@@ -1,8 +1,8 @@
 {
   "name": "furkansogutma-api",
   "version": "0.1.0",
-  "description": "FurkanSoğutma e-commerce platform API",
-  "author": "FurkanSoğutma",
+  "description": "Anamur Acil Medikal ve Anamur İşitme Merkezi web sitesi ve uygulama API’si",
+  "author": "ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {

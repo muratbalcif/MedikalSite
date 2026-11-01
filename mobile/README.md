@@ -1,6 +1,6 @@
-# FurkanSoğutma — Android
+# ANAMUR ACİL MEDİKAL — Android Uygulaması
 
-Production-oriented Android client for the FurkanSoğutma NestJS API (`/api/v1`).
+Anamur Acil Medikal Android uygulaması; NestJS API’yi (`/api/v1`) kullanır.
 
 ## Stack
 

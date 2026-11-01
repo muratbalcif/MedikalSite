@@ -267,7 +267,7 @@ export function PosPage({
       <header className="flex items-center justify-between border-b border-[var(--border)] bg-[var(--primary)] px-5 py-3 text-white">
         <div>
           <p className="text-lg font-bold tracking-tight">FURKAN SOĞUTMA POS</p>
-          <p className="text-sm text-teal-100">
+          <p className="text-sm text-[#f0f5f8]">
             Kasa: {registerLabel ?? "—"} · {user.firstName} {user.lastName}
           </p>
         </div>
@@ -407,7 +407,7 @@ function ShortcutButton({
     <button
       type="button"
       onClick={onClick}
-      className="inline-flex items-center gap-1.5 rounded-lg bg-slate-100 px-2.5 py-1.5 transition-colors hover:bg-teal-100 hover:ring-2 hover:ring-[var(--primary)]/30 active:bg-teal-200"
+      className="inline-flex items-center gap-1.5 rounded-lg bg-slate-100 px-2.5 py-1.5 transition-colors hover:bg-[#d9e8ef] hover:ring-2 hover:ring-[var(--primary)]/30 active:bg-[#d9e8ef]"
     >
       <kbd className="pointer-events-none rounded bg-slate-800 px-1.5 py-0.5 text-xs font-semibold text-white">
         {keys}

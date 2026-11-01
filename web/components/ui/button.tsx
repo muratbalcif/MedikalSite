@@ -22,7 +22,7 @@ export function Button({
         variant === "primary" &&
           "bg-primary text-white hover:bg-primary-dark",
         variant === "accent" &&
-          "bg-accent text-white hover:bg-accent-dark",
+          "bg-accent text-white hover:bg-accent-dark hover:text-white",
         variant === "secondary" &&
           "border border-border bg-surface text-foreground hover:bg-surface-secondary",
         variant === "ghost" && "text-text-secondary hover:bg-surface-secondary",

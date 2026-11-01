@@ -57,7 +57,7 @@ export default function CampaignsPage() {
           {can("campaign.create") && (
             <button
               type="button"
-              className="rounded-md bg-[#0f2744] px-3 py-2 text-sm text-white"
+              className="rounded-md bg-[#16324f] px-3 py-2 text-sm text-white"
               onClick={() => setShowForm((v) => !v)}
             >
               {showForm ? "Kapat" : "Yeni kampanya"}
@@ -137,7 +137,7 @@ export default function CampaignsPage() {
             />
             <button
               type="submit"
-              className="rounded-md bg-[#0f2744] px-3 py-2 text-sm text-white sm:col-span-2"
+              className="rounded-md bg-[#16324f] px-3 py-2 text-sm text-white sm:col-span-2"
             >
               Kaydet
             </button>
@@ -178,7 +178,7 @@ export default function CampaignsPage() {
                   <td className="px-4 py-3">
                     <Link
                       href={`/campaigns/${row.id}`}
-                      className="text-cyan-700 underline"
+                      className="text-[#1b6b8f] underline"
                     >
                       Düzenle
                     </Link>

@@ -44,7 +44,7 @@ export default function CatalogPage() {
             <Link
               key={link.href}
               href={link.href}
-              className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition hover:border-cyan-300"
+              className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition hover:border-[#d9e8ef]"
             >
               <h3 className="font-[family-name:var(--font-display)] text-lg font-semibold text-slate-900">
                 {link.label}

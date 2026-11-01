@@ -211,7 +211,7 @@ export default function OrdersPage() {
                     <td className="px-4 py-3">
                       <Link
                         href={`/orders/${row.id}`}
-                        className="text-cyan-700 hover:underline"
+                        className="text-[#1b6b8f] hover:underline"
                         onClick={(e) => e.stopPropagation()}
                       >
                         Detay

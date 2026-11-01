@@ -98,7 +98,7 @@ export function ImportFlow({
           <a
             href={sample.href}
             download
-            className="inline-flex min-h-11 items-center rounded-md border border-cyan-600 bg-cyan-50 px-4 py-2 text-sm font-medium text-cyan-900 hover:bg-cyan-100"
+            className="inline-flex min-h-11 items-center rounded-md border border-[#1b6b8f] bg-[#f0f5f8] px-4 py-2 text-sm font-medium text-[#16324f] hover:bg-[#d9e8ef]"
           >
             {sample.label}
           </a>
@@ -178,7 +178,7 @@ export function ImportFlow({
               type="button"
               disabled={!canImport || confirmMutation.isPending}
               onClick={() => confirmMutation.mutate(job.id)}
-              className="rounded-md bg-[#0f2744] px-4 py-2 text-sm text-white disabled:opacity-40"
+              className="rounded-md bg-[#16324f] px-4 py-2 text-sm text-white disabled:opacity-40"
             >
               {confirmMutation.isPending ? "İşleniyor…" : "Import Başlat"}
             </button>

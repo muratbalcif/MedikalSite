@@ -155,7 +155,7 @@ export default function AccountingPage() {
                   }}
                   className={`rounded-md px-3 py-1.5 text-sm ${
                     mode === m
-                      ? "bg-[#0f2744] text-white"
+                      ? "bg-[#16324f] text-white"
                       : "bg-slate-100 text-slate-700"
                   }`}
                 >
@@ -304,7 +304,7 @@ export default function AccountingPage() {
               <button
                 type="submit"
                 disabled={pending}
-                className="rounded bg-[#0f2744] px-3 py-1.5 text-sm text-white disabled:opacity-50 sm:col-span-2"
+                className="rounded bg-[#16324f] px-3 py-1.5 text-sm text-white disabled:opacity-50 sm:col-span-2"
               >
                 {pending ? "Kaydediliyor…" : modeLabel[mode]}
               </button>
@@ -348,7 +348,7 @@ export default function AccountingPage() {
                       !row.reference.startsWith("REVERSAL:") ? (
                         <button
                           type="button"
-                          className="text-cyan-800 underline"
+                          className="text-[#16324f] underline"
                           onClick={() => {
                             setMode("reversal");
                             setSelectedCustomer({

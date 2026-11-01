@@ -114,7 +114,7 @@ export default function SettingsPage() {
             {(user?.roles ?? []).map((role) => (
               <li
                 key={role}
-                className="rounded-md bg-slate-900 px-2 py-1 text-xs text-cyan-100"
+                className="rounded-md bg-slate-900 px-2 py-1 text-xs text-[#f0f5f8]"
               >
                 {role}
               </li>
@@ -240,13 +240,13 @@ export default function SettingsPage() {
                         {row.roles.map((code) => (
                           <span
                             key={code}
-                            className="inline-flex items-center gap-1 rounded-md bg-slate-900 px-2 py-1 text-xs text-cyan-100"
+                            className="inline-flex items-center gap-1 rounded-md bg-slate-900 px-2 py-1 text-xs text-[#f0f5f8]"
                           >
                             {code}
                             <button
                               type="button"
                               title={`${code} rolünü kaldır`}
-                              className="ml-1 text-cyan-200 hover:text-white"
+                              className="ml-1 text-[#d9e8ef] hover:text-white"
                               disabled={removeMutation.isPending}
                               onClick={() =>
                                 removeMutation.mutate({

@@ -1,4 +1,4 @@
-# FurkanSoğutma — Public Web Storefront
+# ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ — Web Sitesi
 
 Next.js storefront consuming the NestJS API (`/api/v1`).
 

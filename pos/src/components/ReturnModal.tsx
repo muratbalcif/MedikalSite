@@ -86,7 +86,7 @@ export function ReturnModal({
           />
           <button
             type="submit"
-            className="rounded bg-[#0f2744] px-3 py-2 text-sm text-white"
+            className="rounded bg-[#16324f] px-3 py-2 text-sm text-white"
           >
             Getir
           </button>
@@ -166,7 +166,7 @@ export function ReturnModal({
           </button>
           <button
             type="button"
-            className="rounded bg-[#0f2744] px-3 py-2 text-sm text-white disabled:opacity-50"
+            className="rounded bg-[#16324f] px-3 py-2 text-sm text-white disabled:opacity-50"
             disabled={
               mutation.isPending ||
               !saleQuery.data ||

@@ -4,7 +4,7 @@ import { DeleteAccountForm } from "./delete-account-form";
 export const metadata: Metadata = {
   title: "Hesap silme",
   description:
-    "FurkanSoğutma hesabınızı ve kişisel verilerinizi silmek için bu sayfayı kullanın.",
+    "Anamur Acil Medikal hesabınızı ve kişisel verilerinizi silmek için bu sayfayı kullanın.",
   alternates: { canonical: "/hesap-silme" },
 };
 
@@ -12,15 +12,15 @@ export default function DeleteAccountPage() {
   return (
     <div className="mx-auto max-w-2xl space-y-6">
       <h1 className="font-[family-name:var(--font-display)] text-3xl text-navy">
-        FurkanSoğutma hesap silme
+        ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ hesap silme
       </h1>
       <p className="text-sm leading-6 text-slate-700">
-        FurkanSoğutma mobil uygulamasında veya sitede oluşturduğunuz müşteri
+        Anamur Acil Medikal mobil uygulamasında veya sitede oluşturduğunuz müşteri
         hesabını buradan kapatabilirsiniz. Uygulama içinden de bu sayfaya
         ulaşabilirsiniz: Hesabım, Ayarlar, Hesabı sil.
       </p>
       <ol className="list-decimal space-y-2 pl-5 text-sm leading-6 text-slate-700">
-        <li>FurkanSoğutma hesabınızla giriş yapın.</li>
+        <li>Anamur Acil Medikal hesabınızla giriş yapın.</li>
         <li>Şifrenizi yazın ve silme onayını işaretleyin.</li>
         <li>Hesabımı sil düğmesine basın. Oturumunuz kapanır.</li>
       </ol>

@@ -50,7 +50,7 @@ export default function ImportsHubPage() {
           {IMPORT_CARDS.map((card) => (
             <div
               key={card.href}
-              className="rounded-xl border bg-white p-4 hover:border-cyan-300"
+              className="rounded-xl border bg-white p-4 hover:border-[#d9e8ef]"
             >
               <Link href={card.href} className="font-medium text-slate-900">
                 {card.title}
@@ -59,7 +59,7 @@ export default function ImportsHubPage() {
                 <a
                   href={card.sampleHref}
                   download
-                  className="text-xs font-medium text-cyan-700 underline"
+                  className="text-xs font-medium text-[#1b6b8f] underline"
                 >
                   {card.sampleLabel} indir
                 </a>

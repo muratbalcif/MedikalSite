@@ -119,7 +119,7 @@ export default function PosRegistersPage() {
           {canManage ? (
             <button
               type="button"
-              className="rounded-md bg-[#0f2744] px-3 py-2 text-sm text-white"
+              className="rounded-md bg-[#16324f] px-3 py-2 text-sm text-white"
               onClick={() =>
                 showForm && !editingId ? setShowForm(false) : openCreate()
               }
@@ -176,7 +176,7 @@ export default function PosRegistersPage() {
               <button
                 type="submit"
                 disabled={saveMutation.isPending}
-                className="rounded-md bg-[#0f2744] px-3 py-2 text-sm text-white disabled:opacity-50"
+                className="rounded-md bg-[#16324f] px-3 py-2 text-sm text-white disabled:opacity-50"
               >
                 {saveMutation.isPending ? "Kaydediliyor…" : "Kaydet"}
               </button>
@@ -247,7 +247,7 @@ export default function PosRegistersPage() {
                         {canManage ? (
                           <button
                             type="button"
-                            className="text-cyan-700 underline"
+                            className="text-[#1b6b8f] underline"
                             onClick={() => openEdit(row)}
                           >
                             Düzenle

@@ -140,7 +140,7 @@ export default function SaleDetailPage() {
               </p>
             ) : null}
           </div>
-          <Link href="/sales" className="text-sm text-cyan-700 underline">
+          <Link href="/sales" className="text-sm text-[#1b6b8f] underline">
             ← Satışlar
           </Link>
         </div>
@@ -268,7 +268,7 @@ export default function SaleDetailPage() {
                   {canCreateInvoice && !showCreateInvoice ? (
                     <button
                       type="button"
-                      className="rounded-md bg-cyan-700 px-3 py-1.5 text-sm font-medium text-white hover:bg-cyan-800"
+                      className="rounded-md bg-[#1b6b8f] px-3 py-1.5 text-sm font-medium text-white hover:bg-[#16324f]"
                       onClick={() => {
                         setShowCreateInvoice(true);
                         setBillingAddressId("");
@@ -295,7 +295,7 @@ export default function SaleDetailPage() {
                         <div>
                           <Link
                             href={`/invoices/${inv.id}`}
-                            className="font-mono text-cyan-700 underline"
+                            className="font-mono text-[#1b6b8f] underline"
                           >
                             {inv.invoiceNumber ?? inv.id.slice(0, 8)}
                           </Link>
@@ -319,20 +319,20 @@ export default function SaleDetailPage() {
                 )}
 
                 {showCreateInvoice && canCreateInvoice ? (
-                  <div className="space-y-3 rounded-lg border border-cyan-200 bg-cyan-50 p-4">
-                    <p className="text-cyan-950">
+                  <div className="space-y-3 rounded-lg border border-[#d9e8ef] bg-[#f0f5f8] p-4">
+                    <p className="text-[#16324f]">
                       KolayBi taslak fatura oluşturulur. Belge tipi (e-Fatura /
                       e-Arşiv) müşteri kaydına göre backend tarafından seçilir.
                     </p>
                     {customerAddressesQuery.isLoading ? (
-                      <p className="text-xs text-cyan-800">Adresler yükleniyor…</p>
+                      <p className="text-xs text-[#16324f]">Adresler yükleniyor…</p>
                     ) : addresses.length > 1 ? (
                       <label className="block space-y-1">
-                        <span className="text-xs font-medium text-cyan-900">
+                        <span className="text-xs font-medium text-[#16324f]">
                           Fatura adresi
                         </span>
                         <select
-                          className="w-full rounded-md border border-cyan-300 bg-white px-3 py-2 text-sm"
+                          className="w-full rounded-md border border-[#d9e8ef] bg-white px-3 py-2 text-sm"
                           value={billingAddressId}
                           onChange={(e) => setBillingAddressId(e.target.value)}
                         >
@@ -345,7 +345,7 @@ export default function SaleDetailPage() {
                         </select>
                       </label>
                     ) : addresses.length === 1 ? (
-                      <p className="text-xs text-cyan-800">
+                      <p className="text-xs text-[#16324f]">
                         Adres: {addressLabel(addresses[0]!)}
                       </p>
                     ) : (
@@ -363,7 +363,7 @@ export default function SaleDetailPage() {
                           (addresses.length > 1 && !billingAddressId)
                         }
                         onClick={() => createInvoiceMutation.mutate()}
-                        className="rounded-md bg-cyan-700 px-4 py-2 text-sm font-medium text-white hover:bg-cyan-800 disabled:opacity-60"
+                        className="rounded-md bg-[#1b6b8f] px-4 py-2 text-sm font-medium text-white hover:bg-[#16324f] disabled:opacity-60"
                       >
                         {createInvoiceMutation.isPending
                           ? "Oluşturuluyor…"
@@ -371,7 +371,7 @@ export default function SaleDetailPage() {
                       </button>
                       <button
                         type="button"
-                        className="rounded-md border border-cyan-300 bg-white px-4 py-2 text-sm text-cyan-900"
+                        className="rounded-md border border-[#d9e8ef] bg-white px-4 py-2 text-sm text-[#16324f]"
                         onClick={() => setShowCreateInvoice(false)}
                       >
                         Vazgeç

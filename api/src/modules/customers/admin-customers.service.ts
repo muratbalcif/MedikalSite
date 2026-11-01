@@ -468,7 +468,7 @@ export class AdminCustomersService {
     await this.emailOutbox.enqueue({
       event: 'ACCOUNT_INVITATION',
       toEmail: user.email,
-      subject: 'FurkanSoğutma hesabınız oluşturuldu.',
+      subject: 'Anamur Acil Medikal hesabınız oluşturuldu.',
       eventKey: `ACCOUNT_INVITATION:user:${user.id}:${user.email.toLowerCase()}`,
       payload: {
         firstName: user.firstName,
@@ -598,7 +598,7 @@ export class AdminCustomersService {
         await this.emailOutbox.enqueue({
           event: 'CUSTOMER_INVITE',
           toEmail: user.email,
-          subject: 'FurkanSoğutma hesabınız oluşturuldu.',
+          subject: 'Anamur Acil Medikal hesabınız oluşturuldu.',
           payload: {
             firstName: user.firstName,
             invite: true,

@@ -38,7 +38,7 @@ export function RegisterSelectPage({
           {windowsDownloadHref ? (
             <a
               href={windowsDownloadHref}
-              className="rounded-lg border border-[var(--primary)] bg-[var(--primary-light)] px-3 py-2 text-sm font-semibold text-[var(--primary-dark)] hover:bg-teal-100"
+              className="rounded-lg border border-[var(--primary)] bg-[var(--primary-light)] px-3 py-2 text-sm font-semibold text-[var(--primary-dark)] hover:bg-[#d9e8ef]"
             >
               Windows .exe indir
             </a>

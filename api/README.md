@@ -1,6 +1,6 @@
-# FurkanSoğutma API
+# ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ API
 
-NestJS backend for the FurkanSoğutma e-commerce platform. Single source of truth for Android, public web, and admin clients.
+NestJS backend for the Anamur Acil Medikal web sitesi ve uygulaması. Android, web ve yönetim paneli istemcilerinin ortak API’si.
 
 ## Prerequisites
 

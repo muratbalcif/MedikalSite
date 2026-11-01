@@ -88,7 +88,7 @@ export function ProductAttributesEditor({
             <button
               key={name}
               type="button"
-              className="rounded-full border border-teal-200 bg-teal-50 px-2.5 py-1 text-xs text-teal-900 hover:bg-teal-100"
+              className="rounded-full border border-[#d9e8ef] bg-[#f0f5f8] px-2.5 py-1 text-xs text-[#16324f] hover:bg-[#d9e8ef]"
               onClick={() => {
                 setDraftName(name);
                 setError(null);

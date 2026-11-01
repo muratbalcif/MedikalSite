@@ -16,9 +16,9 @@ export type LegalPageDto = {
 const DEFAULT_PAGES: Record<LegalSlug, { title: string; body: string }> = {
   kvkk: {
     title: 'KVKK Aydınlatma Metni',
-    body: `Veri sorumlusu: FurkanSoğutma
+    body: `Veri sorumlusu: ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ
 
-Bu aydınlatma metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu (“KVKK”) kapsamında, FurkanSoğutma (“Şirket”) tarafından işlenen kişisel verilerinize ilişkin bilgilendirme amacıyla hazırlanmıştır.
+Bu aydınlatma metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu (“KVKK”) kapsamında, ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ (“Şirket”) tarafından işlenen kişisel verilerinize ilişkin bilgilendirme amacıyla hazırlanmıştır.
 
 1. İşlenen veriler
 Kimlik (ad, soyad), iletişim (e-posta, telefon), adres, kurumsal müşteri bilgileri (unvan, vergi no/dairesi), sipariş ve ödeme/havale bildirimleri, cari hesap hareketleri, cihaz bildirim token’ları, bildirim tercihleri ve teknik log kayıtları işlenebilir.
@@ -42,7 +42,7 @@ Bu metin yönetim panelinden güncellenebilir.`,
   },
   privacy: {
     title: 'Gizlilik Politikası',
-    body: `FurkanSoğutma gizlilik politikası
+    body: `ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ gizlilik politikası
 
 1. Kapsam
 Web sitesi, mobil uygulama ve yönetim paneli üzerinden toplanan kişisel veriler bu politika kapsamındadır.
@@ -69,10 +69,10 @@ Bu metin yönetim panelinden güncellenebilir.`,
   },
   terms: {
     title: 'Kullanım Koşulları',
-    body: `FurkanSoğutma kullanım koşulları
+    body: `ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ kullanım koşulları
 
 1. Taraflar
-Bu koşullar, FurkanSoğutma ile site/uygulama kullanıcıları arasında geçerlidir.
+Bu koşullar, ANAMUR ACİL MEDİKAL & ANAMUR İŞİTME MERKEZİ ile site/uygulama kullanıcıları arasında geçerlidir.
 
 2. Hesap
 Kullanıcı doğru bilgi vermekle yükümlüdür. Hesap güvenliğinden kullanıcı sorumludur.

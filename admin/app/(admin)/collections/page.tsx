@@ -101,7 +101,7 @@ export default function CollectionsPage() {
             {selectedCustomer ? (
               <button
                 type="button"
-                className="mt-1 text-xs text-cyan-800 underline"
+                className="mt-1 text-xs text-[#16324f] underline"
                 onClick={() => {
                   setSelectedCustomer(null);
                   setCustomerSearch("");

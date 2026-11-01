@@ -97,7 +97,7 @@ export default async function OrderDetailPage({ params }: Props) {
         {canPayBankTransfer ? (
           <a
             href={`/account/bank-transfers?orderId=${order.id}`}
-            className="mt-3 inline-flex min-h-11 items-center text-sm font-semibold text-accent"
+            className="mt-3 inline-flex min-h-11 items-center text-sm font-semibold text-primary"
           >
             {order.payment?.pendingBankTransferId
               ? "Ödeme bildiriminiz inceleniyor"
@@ -234,7 +234,7 @@ export default async function OrderDetailPage({ params }: Props) {
               href={order.shipping.trackingUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 inline-flex min-h-11 items-center rounded-md bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-accent-dark"
+              className="mt-4 inline-flex min-h-11 items-center rounded-md bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-accent-dark hover:text-white"
             >
               Kargoyu Takip Et
             </a>

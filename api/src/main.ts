@@ -56,8 +56,8 @@ async function bootstrap(): Promise<void> {
 
   if (nodeEnv !== 'production') {
     const swaggerConfig = new DocumentBuilder()
-      .setTitle('FurkanSoğutma API')
-      .setDescription('E-commerce platform API for FurkanSoğutma')
+      .setTitle('ANAMUR ACİL MEDİKAL API')
+      .setDescription('Anamur Acil Medikal ve Anamur İşitme Merkezi API')
       .setVersion('1.0')
       .addBearerAuth(
         {

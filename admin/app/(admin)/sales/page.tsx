@@ -135,7 +135,7 @@ export default function SalesPage() {
           {can("sale.create") ? (
             <Link
               href="/sales/new"
-              className="rounded-md bg-cyan-700 px-4 py-2 text-sm font-medium text-white hover:bg-cyan-800"
+              className="rounded-md bg-[#1b6b8f] px-4 py-2 text-sm font-medium text-white hover:bg-[#16324f]"
             >
               Yeni Satış
             </Link>
@@ -317,7 +317,7 @@ export default function SalesPage() {
                     <td className="px-4 py-3">
                       <Link
                         href={`/sales/${row.id}`}
-                        className="text-cyan-700 underline"
+                        className="text-[#1b6b8f] underline"
                         onClick={(e) => e.stopPropagation()}
                       >
                         Detay
